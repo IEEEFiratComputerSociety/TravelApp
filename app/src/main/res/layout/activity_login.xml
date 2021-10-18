@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LogInActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/giris_kayit_buton"
+            android:layout_width="400dp"
+            android:layout_height="59dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/g_r_yap_kayit_ol"
+            app:layout_constraintBottom_toTopOf="@+id/logoView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/logoView"
+            android:layout_width="176dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintBottom_toTopOf="@+id/kullaniciAdiTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/giris_kayit_buton"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/sifreTextView"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/ifrenizi_giriniz"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kullaniciAdiTextView" />
+
+        <Button
+            android:id="@+id/girisYap"
+            android:layout_width="287dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginStart="60dp"
+            android:onClick="Giris"
+            android:text="@string/g_r_yap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hesapOlustur" />
+
+        <Button
+            android:id="@+id/hesapOlustur"
+            android:layout_width="297dp"
+            android:layout_height="51dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:onClick="hesapOlustur"
+            android:text="@string/hesab_n_z_yok_mu_kay_t_olun"
+            app:layout_constraintBottom_toTopOf="@+id/girisYap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/unuttum" />
+
+        <Button
+            android:id="@+id/unuttum"
+            android:layout_width="176dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="unuttum"
+            android:text="@string/frem_unuttum"
+            app:layout_constraintBottom_toTopOf="@+id/hesapOlustur"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sifreTextView" />
+
+        <EditText
+            android:id="@+id/kullaniciAdiText"
+
+            android:layout_width="203dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:inputType="textWebEmailAddress"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/kullaniciAdiTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/kullaniciAdiTextView"
+            app:layout_constraintStart_toStartOf="@+id/logoView"
+            app:layout_constraintTop_toBottomOf="@+id/logoView"
+            app:layout_constraintVertical_bias="0.441" />
+
+        <EditText
+            android:id="@+id/sifreText"
+            android:layout_width="206dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="23dp"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/sifreTextView"
+            app:layout_constraintEnd_toEndOf="@+id/hesapOlustur"
+            app:layout_constraintTop_toBottomOf="@+id/kullaniciAdiText"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <TextView
+            android:id="@+id/kullaniciAdiTextView"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="3dp"
+            android:text="@string/kullan_c_ad"
+            app:layout_constraintEnd_toStartOf="@+id/kullaniciAdiText"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context=".View.GezdimFilterCity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/getRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/linearcategorycity"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearcategorycity"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="425dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/uzuncubuk"
+        app:srcCompat="@android:drawable/screen_background_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imageButton77"
+            android:layout_width="68dp"
+            android:layout_height="52dp"
+            android:contentDescription="@string/gezdim"
+            app:srcCompat="@drawable/mor"
+            android:paddingVertical="5dp"
+            android:layout_weight="0.45"/>
+
+
+        <ImageView
+            android:id="@+id/imageView99"
+            android:layout_width="7dp"
+            android:layout_height="52dp"
+            android:contentDescription="@string/kısacubuk"
+            app:srcCompat="@android:drawable/screen_background_dark" />
+
+        <ImageButton
+            android:id="@+id/imageButton88"
+            android:layout_width="68dp"
+            android:layout_height="52dp"
+            android:contentDescription="@string/gördüm"
+            app:srcCompat="@drawable/gordum"
+            android:paddingVertical="5dp"
+            android:layout_weight="0.45"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

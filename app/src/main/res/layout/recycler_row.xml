@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/Recyler_Row_Dmbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dmbutton" />
+
+    <ImageButton
+        android:id="@+id/Recycler_Row_ProfilFotosu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bigprofile" />
+
+    <TextView
+        android:id="@+id/Recycler_Row_UserEmail"
+        android:layout_width="259dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="84dp"
+        android:text="Kullanici Adi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Recycler_Row_ProfilFotosu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Recycler_Row_PostFotosu"
+        android:layout_width="338dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_UserEmail"
+        app:srcCompat="@drawable/izmir" />
+
+    <ImageButton
+        android:id="@+id/Recycler_Row_BegenmeButonu"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/line"
+        android:onClick="BegenmeButonu"
+        android:src="@drawable/begenbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_PostFotosu" />
+
+    <ImageButton
+        android:id="@+id/Recycler_Row_YorumButonu"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        android:contentDescription="@string/izmir"
+        android:onClick="YorumButonu"
+        android:src="@drawable/yorum"
+        app:layout_constraintStart_toEndOf="@+id/Recycler_Row_BegenmeButonu"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_PostFotosu" />
+
+    <ImageButton
+        android:id="@+id/Recycler_Row_GondermeButonu"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/yer"
+        android:onClick="GondermeButonu"
+        android:src="@drawable/dmbutton"
+        app:layout_constraintBottom_toTopOf="@+id/Recycler_Row_YerAdi"
+        app:layout_constraintStart_toEndOf="@+id/Recycler_Row_YorumButonu" />
+
+    <ImageButton
+        android:id="@+id/Recycler_Row_FavoriButonu"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:contentDescription="@string/gez"
+        android:onClick="FavoriButonu"
+        android:src="@drawable/favbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_PostFotosu" />
+
+    <TextView
+        android:id="@+id/Recycler_Row_YerAdi"
+        android:layout_width="207dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:text="Yer Adi:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_PostFotosu" />
+
+    <EditText
+        android:id="@+id/Recycler_Row_YorumYap"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:hint="Yorum Yap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_YerAdi" />
+
+    <TextView
+        android:id="@+id/Recycler_Row_Yorumlar"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:text="Yorumlar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recycler_Row_YorumYap" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

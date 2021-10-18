@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.GezdimPostDetailsActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollview_gezdim_postdetails"
+    android:layout_above="@+id/linear_gezdim_postdetails_bottommenu">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtview_gezdim_postdetails_anabaslik"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Istanbul - Tarihi Yerler"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:layout_alignParentTop="true"
+        android:background="@color/common_google_signin_btn_text_light_default" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/txtview_gezdim_postdetails_anabaslik"
+        android:id="@+id/linear_gezdim_postdetails_1">
+
+
+
+        <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/linear_gezdim_postdatails_2"
+                    android:gravity="right">
+
+
+                    <ImageButton
+                        android:id="@+id/imgbutton_gezdim_postdetails_dmbutton"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/dmbutton" />
+
+                </LinearLayout>
+
+-->
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#FFFFFF"
+                    android:layout_margin="5dp">
+
+
+
+                    <ImageButton
+                        android:id="@+id/imgbutton_gezdim_postdetails_logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/logo"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"/>
+
+
+                    <ImageButton
+                        android:id="@+id/imgbutton_gezdim_postdetails_emptystar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/favorite_star"
+                        android:layout_marginLeft="-50dp"
+                        android:layout_alignParentBottom="true"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:onClick="addToFavorites"
+                        android:layout_toRightOf="@+id/imgview_gezdim_postdetails_foto"/>
+
+
+
+                    <TextView
+                        android:id="@+id/txtview_gezdim_postdetails_baslik"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Galata Kulesi"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginBottom="5dp"/>
+
+
+                    <ImageView
+
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/imgview_gezdim_postdetails_foto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="210dp"
+                        android:maxWidth="280dp"
+                        android:layout_margin="25dp">
+
+
+                    </ImageView>
+
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/txtview_gezdim_postdetails_icerik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Icerik buraya girilecek Icerik buraya girilecek Icerik buraya girilecek
+        Icerik buraya girilecek Icerik buraya girilecek Icerik buraya girilecek Icerik buraya girilecek Icerik buraya girilecek Icerik buraya girilecek"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:textAlignment="center"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtview_gezdim_postdetails_tarih"
+                android:text="Post tarihi"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+            </TextView>
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/maps_icon"
+                android:scaleType="fitCenter"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="15dp"
+                android:onClick="openOnMaps"
+                android:background="@null">
+
+            </ImageButton>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_gezdim_postdetails_3"
+        android:layout_below="@id/linear_gezdim_postdetails_1"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edittext_gezdim_postdetails_comment"
+            android:layout_gravity="top"
+            android:layout_height="30dp"
+            android:layout_weight="0.2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white">
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="0.5">
+
+
+            <Button
+                android:id="@+id/btn_gezdim_postdetails_addcomment"
+                android:layout_height="40dp"
+                android:layout_width="100dp"
+                android:onClick="addComment"
+                android:text="Ekle">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_gezdim_postdetails_updatecomment"
+                android:layout_height="40dp"
+                android:layout_width="100dp"
+                android:onClick="addComment"
+                android:text="Guncelle">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_gezdim_postdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_gezdim_postdetails_3"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/linear_gezdim_postdetails_bottommenu"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="425dp"
+            android:layout_height="5dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/uzuncubuk"
+            app:srcCompat="@android:drawable/screen_background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/imgbutton_gezdim_postdetails_morbuton"
+                android:layout_width="68dp"
+                android:layout_height="52dp"
+                app:srcCompat="@drawable/mor"
+                android:layout_weight="0.45"/>
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="7dp"
+                android:layout_height="52dp"
+                app:srcCompat="@android:drawable/screen_background_dark">
+            </ImageView>
+
+            <ImageButton
+                android:id="@+id/imgbutton_gezdim_postdetails_siyahbuton"
+                android:layout_width="68dp"
+                android:layout_height="52dp"
+                app:srcCompat="@drawable/gordum"
+                android:layout_weight="0.45"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">travel_app_feed</string>
+    <string name="l_tfen_se_n_z"><b>LÜTFEN SEÇİNİZ !</b> </string>
+    <string name="uzuncubuk">uzuncubuk</string>
+    <string name="kısacubuk">kısacubuk</string>
+    <string name="morgezdim">morgezdim</string>
+    <string name="gördüm">gördüm</string>
+    <string name="uzuncubuk2">uzuncubuk2</string>
+    <string name="tarihi_yerler">Tarihi Yerler</string>
+    <string name="do_al_g_zellikler">Doğal Güzellikler</string>
+    <string name="plaj_ve_koylar">Plaj ve Koylar</string>
+    <string name="antik_kentler">Antik Kentler</string>
+    <string name="m_zeler">Müzeler</string>
+    <string name="avm">AVM</string>
+    <string name="cafeler">Cafeler</string>
+    <string name="app_name1">gezdimgordum</string>
+    <string name="uzuncubuk1">uzuncubuk</string>
+    <string name="kısacubuk1">kısacubuk</string>
+    <string name="gezdim">TODO</string>
+    <string name="gördüm1">TODO</string>
+    <string name="g_r_yap_kayit_ol">GİRİŞ YAP / KAYIT OL</string>
+    <string name="kullan_c_ad">Kullanıcı Adı:</string>
+    <string name="ifrenizi_giriniz">Şifrenizi Giriniz:</string>
+    <string name="g_r_yap">GİRİŞ YAP</string>
+    <string name="hesab_n_z_yok_mu_kay_t_olun">Hesabınız Yok Mu ? Kayıt Olun</string>
+    <string name="logo">TODO</string>
+    <string name="google">Button</string>
+    <string name="facebook">Button</string>
+    <string name="frem_unuttum">ŞİFREMİ UNUTTUM</string>
+</resources>

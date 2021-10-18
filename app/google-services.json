@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "227126162964",
+    "project_id": "trouvaille-eaf28",
+    "storage_bucket": "trouvaille-eaf28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227126162964:android:b3204ac90efa20f4821901",
+        "android_client_info": {
+          "package_name": "com.example.travel_app_feed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227126162964-7rda5ip6d7ja70t2jvivph7n1uh1opp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-50dgpm_oIfFs9C65qZrzWQB90hVLzjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227126162964-7rda5ip6d7ja70t2jvivph7n1uh1opp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/img_second_yorum"
+        android:layout_gravity="center_vertical">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginRight="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kullanici Adi"
+            android:id="@+id/txt_second_kullanici_adi"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YORUM METNI"
+            android:id="@+id/txt_second_yorum_metni"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tarih"
+            android:id="@+id/txt_second_yorum_tarihi"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/comment_options"
+        android:layout_marginLeft="-50dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_round_expand_more_24" />
+
+
+</LinearLayout>

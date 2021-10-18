@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/comment_popup_duzenle"
+        android:title="Yorumu Düzenle" />
+
+    <item
+        android:id="@+id/comment_popup_sil"
+        android:title="Yorumu Sil" />
+
+    <item
+        android:id="@+id/comment_popup_sikayet"
+        android:title="Yorumu Şikayet Et" />
+</menu>
