@@ -22,7 +22,20 @@ bir proje çıkartmayı hedefledik.
 
 ## Ekran Görüntüleri
 ### Giriş Ekranı
-<img src="https://i.hizliresim.com/ao9dnoq.jpg" width="400" height="790">
+<img src="https://i.hizliresim.com/ao9dnoq.jpg" width="300" height="600">
 
+### Ana Ekran
+<img src="https://i.hizliresim.com/hac8tfr.jpg" width="300" height="600">
 
-İEEE Computer Society Mobil Programlama Ekibi tarafından geliştirildi. 
+### Gezdim Ekranı
+<img src="https://i.hizliresim.com/dfhff1z.jpg" width="300" height="600">
+<img src="https://i.hizliresim.com/l39wsih.jpeg" width="300" height="600">
+<img src="https://i.hizliresim.com/hjlcy81.jpg" width="300" height="600">
+
+### Gördüm Ekranı
+<img src="https://i.hizliresim.com/rrq0xhj.jpeg" width="300" height="600">
+
+### Profil Ekranı
+<img src="https://i.hizliresim.com/1h4a83e.jpg" width="300" height="600">
+
+ IEEE Computer Society Mobil Programlama Ekibi tarafından geliştirildi. 
