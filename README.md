@@ -1,4 +1,5 @@
 # TravelApp
+We started this project during the pandemic period. We launched an application where people can meet and see many places in 81 provinces in times when our desire to travel will never end when everyone is bored at home.
 This project was developed in Android studio using Java language.
 In the project, we have developed both an informative part and two separate interfaces that users can use like social media. We have compiled these two parts in detail so that users can use them more easily.
 
