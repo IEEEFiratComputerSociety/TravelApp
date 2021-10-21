@@ -1,7 +1,5 @@
 # TravelApp
-We started this project during the pandemic period. We launched an application where people can meet and see many places in 81 provinces in times when our desire to travel will never end when everyone is bored at home.
-This project was developed in Android studio using Java language.
-In the project, we have developed both an informative part and two separate interfaces that users can use like social media. We have compiled these two parts in detail so that users can use them more easily.
+We started this project during the pandemic period. We launched an application where people can see and meet many places in 81 provinces at a time when our desire to travel will never end when everyone is bored at home. This project was developed in Android studio using Java language. In the project, we developed both an informative section and two separate interfaces that users can use as social media. We have compiled these two sections in detail so that users can use them more easily.
 
 ### I Wandered Screen
 . On this screen, first of all, our users will be able to see the places we have added and after a certain period, our users will be able to add them. \
